@@ -25,6 +25,7 @@ Motywy kursorów.
 Summary:	Cursors Theme "handhelds"
 Summary(pl):	Motyw kursorów "handhelds"
 Group:		Themes
+Obsoletes:	XcursorTheme-handhelds
 
 %description -n xcursor-theme-handhelds
 Cursors theme "handhelds" for X11.
@@ -36,6 +37,7 @@ Motyw kursorów "handhelds" dla X11.
 Summary:	Cursors theme "redglass"
 Summary(pl):	Motyw kursorów "redglass"
 Group:		Themes
+Obsoletes:	XcursorTheme-redglass
 
 %description -n xcursor-theme-redglass
 Cursors theme "redglass" for X11.
@@ -47,6 +49,7 @@ Motyw kursorów "redglass" dla X11.
 Summary:	Cursors theme "whiteglass"
 Summary(pl):	Motyw kursorów "whiteglass"
 Group:		Themes
+Obsoletes:	XcursorTheme-whiteglass
 
 %description -n xcursor-theme-whiteglass
 Cursors theme "whiteglass" for X11.

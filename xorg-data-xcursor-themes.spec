@@ -1,5 +1,3 @@
-# $Rev: 3431 $, $Date: 2005-08-15 12:17:57 $
-#
 Summary:	Cursor themes
 Summary(pl):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
@@ -12,17 +10,16 @@ Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/data/xcursor-themes-%{version}.
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-app-xcursorgen
-BuildRoot:	%{tmpdir}/xcursor-themes-%{version}-root-%(id -u -n)
+BuildRequires:	xorg-util-util-macros
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Cursor themes.
 
 %description -l pl
 Motywy kursorów.
-
 
 %package -n xcursor-theme-handhelds
 Summary:	Cursors Theme "handhelds"
@@ -35,7 +32,6 @@ Cursors theme "handhelds" for X11.
 %description -n xcursor-theme-handhelds -l pl
 Motyw kursorów "handhelds" dla X11.
 
-
 %package -n xcursor-theme-redglass
 Summary:	Cursors theme "redglass"
 Summary(pl):	Motyw kursorów "redglass"
@@ -46,7 +42,6 @@ Cursors theme "redglass" for X11.
 
 %description -n xcursor-theme-redglass -l pl
 Motyw kursorów "redglass" dla X11.
-
 
 %package -n xcursor-theme-whiteglass
 Summary:	Cursors theme "whiteglass"
@@ -59,10 +54,8 @@ Cursors theme "whiteglass" for X11.
 %description -n xcursor-theme-whiteglass -l pl
 Motyw kursorów "whiteglass" dla X11.
 
-
 %prep
 %setup -q -n xcursor-themes-%{version}
-
 
 %build
 %{__aclocal}
@@ -73,17 +66,14 @@ Motyw kursorów "whiteglass" dla X11.
 
 %{__make}
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files -n xcursor-theme-handhelds
 %defattr(644,root,root,755)

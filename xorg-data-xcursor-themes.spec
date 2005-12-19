@@ -2,16 +2,19 @@
 Summary:	Cursor themes
 Summary(pl):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
-Version:	0.99.1
+Version:	1.0.0
 Release:	0.1
 License:	MIT
 Group:		Themes
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/data/xcursor-themes-%{version}.tar.bz2
-# Source0-md5:	a86608399b872b9ca3ed56d864918794
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/data/xcursor-themes-%{version}.tar.bz2
+# Source0-md5:	cc2346ff7716eae9cb8f2727afc3d78d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
+BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-app-xcursorgen
+# to get icondir from xcursor.pc
+BuildRequires:	xorg-lib-libXcursor-devel >= 1.1.5.2
 BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -2,12 +2,12 @@
 Summary:	Cursor themes
 Summary(pl):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
-Version:	1.0.0
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		Themes
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/data/xcursor-themes-%{version}.tar.bz2
-# Source0-md5:	cc2346ff7716eae9cb8f2727afc3d78d
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/data/xcursor-themes-X11R7.0-%{version}.tar.bz2
+# Source0-md5:	c39afeae55a7d330297b2fec3d113634
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -61,7 +61,7 @@ Cursors theme "whiteglass" for X11.
 Motyw kursorów "whiteglass" dla X11.
 
 %prep
-%setup -q -n xcursor-themes-%{version}
+%setup -q -n xcursor-themes-X11R7.0-%{version}
 
 %build
 %{__aclocal}
@@ -83,15 +83,15 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n xcursor-theme-handhelds
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %{_iconsdir}/handhelds
 
 %files -n xcursor-theme-redglass
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %{_iconsdir}/redglass
 
 %files -n xcursor-theme-whiteglass
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %{_iconsdir}/whiteglass

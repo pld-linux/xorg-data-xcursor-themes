@@ -6,7 +6,7 @@ Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		Themes
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/data/xcursor-themes-X11R7.0-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/data/xcursor-themes-%{version}.tar.bz2
 # Source0-md5:	c39afeae55a7d330297b2fec3d113634
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57

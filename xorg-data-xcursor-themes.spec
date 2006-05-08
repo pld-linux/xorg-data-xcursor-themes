@@ -7,7 +7,7 @@ Release:	0.1
 License:	MIT
 Group:		Themes
 Source0:	http://xorg.freedesktop.org/releases/individual/data/xcursor-themes-%{version}.tar.bz2
-# Source0-md5:	c39afeae55a7d330297b2fec3d113634
+# Source0-md5:	014bad415e64c49994679cdb71a97e37
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake

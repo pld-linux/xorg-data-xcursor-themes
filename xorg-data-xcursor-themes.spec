@@ -61,7 +61,7 @@ Cursors theme "whiteglass" for X11.
 Motyw kursorów "whiteglass" dla X11.
 
 %prep
-%setup -q -n xcursor-themes-X11R7.0-%{version}
+%setup -q -n xcursor-themes-%{version}
 
 %build
 %{__aclocal}

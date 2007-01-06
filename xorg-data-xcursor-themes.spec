@@ -3,7 +3,7 @@ Summary:	Cursor themes
 Summary(pl):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
 Version:	1.0.1
-Release:	0.1
+Release:	0.2
 License:	MIT
 Group:		Themes
 Source0:	http://xorg.freedesktop.org/releases/individual/data/xcursor-themes-%{version}.tar.bz2

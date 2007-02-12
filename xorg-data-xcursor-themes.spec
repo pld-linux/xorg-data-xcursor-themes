@@ -1,5 +1,5 @@
 Summary:	Cursor themes
-Summary(pl):	Motywy kursor體
+Summary(pl.UTF-8):   Motywy kursor贸w
 Name:		xorg-data-xcursor-themes
 Version:	1.0.1
 Release:	1
@@ -20,44 +20,44 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Cursor themes.
 
-%description -l pl
-Motywy kursor體.
+%description -l pl.UTF-8
+Motywy kursor贸w.
 
 %package -n xcursor-theme-handhelds
 Summary:	Cursors Theme "handhelds"
-Summary(pl):	Motyw kursor體 "handhelds"
+Summary(pl.UTF-8):   Motyw kursor贸w "handhelds"
 Group:		Themes
 Obsoletes:	XcursorTheme-handhelds
 
 %description -n xcursor-theme-handhelds
 Cursors theme "handhelds" for X11.
 
-%description -n xcursor-theme-handhelds -l pl
-Motyw kursor體 "handhelds" dla X11.
+%description -n xcursor-theme-handhelds -l pl.UTF-8
+Motyw kursor贸w "handhelds" dla X11.
 
 %package -n xcursor-theme-redglass
 Summary:	Cursors theme "redglass"
-Summary(pl):	Motyw kursor體 "redglass"
+Summary(pl.UTF-8):   Motyw kursor贸w "redglass"
 Group:		Themes
 Obsoletes:	XcursorTheme-redglass
 
 %description -n xcursor-theme-redglass
 Cursors theme "redglass" for X11.
 
-%description -n xcursor-theme-redglass -l pl
-Motyw kursor體 "redglass" dla X11.
+%description -n xcursor-theme-redglass -l pl.UTF-8
+Motyw kursor贸w "redglass" dla X11.
 
 %package -n xcursor-theme-whiteglass
 Summary:	Cursors theme "whiteglass"
-Summary(pl):	Motyw kursor體 "whiteglass"
+Summary(pl.UTF-8):   Motyw kursor贸w "whiteglass"
 Group:		Themes
 Obsoletes:	XcursorTheme-whiteglass
 
 %description -n xcursor-theme-whiteglass
 Cursors theme "whiteglass" for X11.
 
-%description -n xcursor-theme-whiteglass -l pl
-Motyw kursor體 "whiteglass" dla X11.
+%description -n xcursor-theme-whiteglass -l pl.UTF-8
+Motyw kursor贸w "whiteglass" dla X11.
 
 %prep
 %setup -q -n xcursor-themes-%{version}

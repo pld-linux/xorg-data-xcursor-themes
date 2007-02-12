@@ -1,5 +1,5 @@
 Summary:	Cursor themes
-Summary(pl.UTF-8):   Motywy kursorów
+Summary(pl.UTF-8):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
 Version:	1.0.1
 Release:	1
@@ -25,7 +25,7 @@ Motywy kursorów.
 
 %package -n xcursor-theme-handhelds
 Summary:	Cursors Theme "handhelds"
-Summary(pl.UTF-8):   Motyw kursorów "handhelds"
+Summary(pl.UTF-8):	Motyw kursorów "handhelds"
 Group:		Themes
 Obsoletes:	XcursorTheme-handhelds
 
@@ -37,7 +37,7 @@ Motyw kursorów "handhelds" dla X11.
 
 %package -n xcursor-theme-redglass
 Summary:	Cursors theme "redglass"
-Summary(pl.UTF-8):   Motyw kursorów "redglass"
+Summary(pl.UTF-8):	Motyw kursorów "redglass"
 Group:		Themes
 Obsoletes:	XcursorTheme-redglass
 
@@ -49,7 +49,7 @@ Motyw kursorów "redglass" dla X11.
 
 %package -n xcursor-theme-whiteglass
 Summary:	Cursors theme "whiteglass"
-Summary(pl.UTF-8):   Motyw kursorów "whiteglass"
+Summary(pl.UTF-8):	Motyw kursorów "whiteglass"
 Group:		Themes
 Obsoletes:	XcursorTheme-whiteglass
 

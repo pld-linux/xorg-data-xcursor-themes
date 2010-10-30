@@ -1,27 +1,31 @@
 Summary:	Cursor themes
 Summary(pl.UTF-8):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		Themes
 Source0:	http://xorg.freedesktop.org/releases/individual/data/xcursor-themes-%{version}.tar.bz2
-# Source0-md5:	e8929a1bb4d98d1a3991fd340d0b5f09
+# Source0-md5:	ba21aad0b353f1881f5069e423a44587
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-app-xcursorgen
 # to get icondir from xcursor.pc
 BuildRequires:	xorg-lib-libXcursor-devel >= 1.1.5.2
-BuildRequires:	xorg-util-util-macros
+BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Cursor themes.
+This is a default set of cursor themes for use with libXcursor,
+originally created for the XFree86 Project, and now shipped as part
+of the X.Org software distribution.
 
 %description -l pl.UTF-8
-Motywy kursorów.
+Tak pakiet zawiera domyślny zestaw motywów kursorów do używania z
+libXcursor, oryginalnie stworzonych dla projektu XFree86, a teraz
+dołączanych jako część dystrybucji oprogramowania X.Org.
 
 %package -n xcursor-theme-handhelds
 Summary:	Cursors Theme "handhelds"
@@ -81,15 +85,15 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n xcursor-theme-handhelds
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README
 %{_iconsdir}/handhelds
 
 %files -n xcursor-theme-redglass
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README
 %{_iconsdir}/redglass
 
 %files -n xcursor-theme-whiteglass
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README
 %{_iconsdir}/whiteglass

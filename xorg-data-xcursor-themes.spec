@@ -1,12 +1,12 @@
 Summary:	Cursor themes
 Summary(pl.UTF-8):	Motywy kursorów
 Name:		xorg-data-xcursor-themes
-Version:	1.0.5
+Version:	1.0.6
 Release:	1
 License:	MIT
 Group:		Themes
 Source0:	https://xorg.freedesktop.org/releases/individual/data/xcursor-themes-%{version}.tar.bz2
-# Source0-md5:	34a93df23e4aa9ee2832a4af33da3ceb
+# Source0-md5:	aea14eabf40528ec4db18f1cfcf5c458
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -85,15 +85,15 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n xcursor-theme-handhelds
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README
+%doc COPYING ChangeLog README.md
 %{_iconsdir}/handhelds
 
 %files -n xcursor-theme-redglass
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README
+%doc COPYING ChangeLog README.md
 %{_iconsdir}/redglass
 
 %files -n xcursor-theme-whiteglass
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README
+%doc COPYING ChangeLog README.md
 %{_iconsdir}/whiteglass

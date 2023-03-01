@@ -17,6 +17,7 @@ BuildRequires:	xorg-app-xcursorgen
 BuildRequires:	xorg-lib-libXcursor-devel >= 1.1.5.2
 BuildRequires:	xorg-util-util-macros >= 1.20
 BuildRequires:	xz
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -72,7 +73,11 @@ Motyw kursorów "whiteglass" dla X11.
 %{__aclocal}
 %{__autoconf}
 %{__automake}
-%configure
+%configure \
+%ifnarch x32
+	--host=%{_host} \
+	--build=%{_host}
+%endif
 
 %{__make}
 

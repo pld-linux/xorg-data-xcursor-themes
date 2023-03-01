@@ -31,7 +31,7 @@ dołączanych jako część dystrybucji oprogramowania X.Org.
 Summary:	Cursors Theme "handhelds"
 Summary(pl.UTF-8):	Motyw kursorów "handhelds"
 Group:		Themes
-Obsoletes:	XcursorTheme-handhelds
+Obsoletes:	XcursorTheme-handhelds < 1:7
 
 %description -n xcursor-theme-handhelds
 Cursors theme "handhelds" for X11.
@@ -43,7 +43,7 @@ Motyw kursorów "handhelds" dla X11.
 Summary:	Cursors theme "redglass"
 Summary(pl.UTF-8):	Motyw kursorów "redglass"
 Group:		Themes
-Obsoletes:	XcursorTheme-redglass
+Obsoletes:	XcursorTheme-redglass < 1:7
 
 %description -n xcursor-theme-redglass
 Cursors theme "redglass" for X11.
@@ -55,7 +55,7 @@ Motyw kursorów "redglass" dla X11.
 Summary:	Cursors theme "whiteglass"
 Summary(pl.UTF-8):	Motyw kursorów "whiteglass"
 Group:		Themes
-Obsoletes:	XcursorTheme-whiteglass
+Obsoletes:	XcursorTheme-whiteglass < 1:7
 
 %description -n xcursor-theme-whiteglass
 Cursors theme "whiteglass" for X11.

@@ -74,7 +74,7 @@ Motyw kursorów "whiteglass" dla X11.
 %{__autoconf}
 %{__automake}
 %configure \
-%ifnarch x32
+%if "%{_host_cpu}" != "x32"
 	--host=%{_host} \
 	--build=%{_host}
 %endif
